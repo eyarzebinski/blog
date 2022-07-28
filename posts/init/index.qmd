@@ -2,8 +2,10 @@
 title: "init"
 author: "evelyn"
 date: "2022-07-27"
-categories: [news, code, analysis]
+categories: [news]
 image: "image.jpg"
 ---
 
 I'm doing a new thing! Hello, world!
+
+My organization, [Computing Research Association](www.cra.org), generously funded my attendance of a 2 day workshop at rconf, where I learned about Quarto, the next generation of RMarkdown. I learned a lot, including how easily Quarto supports blogging! So, welcome to my Quarto blog. I plan to use this blog mostly as notes to myself as I think through R packages and workflows. Feel free to follow along with me!
