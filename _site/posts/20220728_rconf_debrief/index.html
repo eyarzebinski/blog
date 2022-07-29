@@ -151,13 +151,45 @@ ul.task-list{list-style: none;}
 <li><p>svdialogs (use popups to get path options)</p></li>
 </ul></li>
 <li><p>dm (cynkra) for database relational mapping / joining</p></li>
-<li><p>[funspotr](https://github.com/brshallo/funspotr-rstudioconf2022) to spot functions that someone uses e.g.&nbsp;a hadley blog</p></li>
+<li><p><a href="https://github.com/brshallo/funspotr-rstudioconf2022">funspotr</a> to spot functions that someone uses e.g.&nbsp;a hadley blog</p></li>
+<li><p><a href="https://epirhandbook.com/en/reports-with-r-markdown.html#options-3-reportfactory-package">reportfactor</a>y</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/validate/vignettes/cookbook.html#1_Introduction_to_validate">data validation cookbook</a></p>
+<ul>
+<li><a href="http://data-cleaning.github.io/validate/">also</a></li>
+</ul></li>
 </ul>
 <p>Products to consider making:</p>
 <ul>
+<li><p>general CERP</p>
+<ul>
 <li><p>make a CERP manual in quarto and host it somewhere. e.g.&nbsp;twiki</p></li>
-<li><p>DBS dashboard for monitoring incoming data: pull institution / id into google drive –&gt; R script to make dashboard</p></li>
-<li><p>CERP REU dashboard for monitoring incoming data outside of the time I’m generating contact lists</p></li>
+<li><p>make package including different years of carnegie data so we can call them easily</p></li>
+<li><p>be clearer about whose packages i depend on and credit them more obviously</p>
+<ul>
+<li>have a main list of packages and what they do / why to use them (add to manual)</li>
+</ul></li>
+<li><p>talk with everyone about general pain points of things they are doign over and over</p></li>
+<li><p>data cleaning - improve script to use svdialogs!!</p></li>
+<li><p>WE NEED A DATABASE</p>
+<ul>
+<li>yes</li>
+</ul></li>
+<li><p>investigate how to use cronR and/or posit connect</p></li>
+</ul></li>
+<li><p>DBS</p>
+<ul>
+<li><p>dashboard for monitoring incoming data: pull institution / id into google drive –&gt; R script to make dashboard</p></li>
+<li><p>cron job or something more automatic for on demand</p></li>
+</ul></li>
+<li><p>CERP REU</p>
+<ul>
+<li>dashboard for monitoring incoming data outside of the time I’m generating contact lists</li>
+</ul></li>
+<li><p>BPCnet</p>
+<ul>
+<li>dashboard for plan pipeline status</li>
+</ul></li>
+<li><p><a href="https://epirhandbook.com/en/iteration-loops-and-lists.html">looped rmarkdowns</a></p></li>
 </ul>
 <p>Other thoughts / ideas:</p>
 <ul>
@@ -183,6 +215,36 @@ ul.task-list{list-style: none;}
 <li><p>02-analysis.R</p></li>
 <li><p>03-dashboard.R</p></li>
 </ul></li>
+</ul></li>
+<li><p>specific links to follow up on</p>
+<ul>
+<li><p><a href="https://www.rstudio.com/products/connect/">Rstudio connect: is this a product we’d want?</a></p></li>
+<li><p><a href="https://github.com/rstudio/flexdashboard/blob/main/inst/examples/crandash/crandash.Rmd">flexdashboard omg yes</a></p></li>
+<li><p><a href="https://github.com/bnosac/cronR">all the cron jobs</a></p>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=w2Ka5u5jlJU">but also this</a></p></li>
+<li><p><a href="https://stackoverflow.com/questions/39419391/running-r-script-daily-using-crontab-in-osx">and even this</a></p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/taskscheduleR/vignettes/taskscheduleR.html">or even this</a></p></li>
+</ul></li>
+<li><p><a href="https://github.com/awalsh17/quiltR">quilt design in R!?!</a></p></li>
+<li><p><a href="https://github.com/forwards/first-contributions">practice pull requests</a></p></li>
+<li><p><a href="https://github.com/brshallo/funspotr-rstudioconf2022">learn what functions people use (esp as a diff)</a></p></li>
+<li><p><a href="https://www.datatrail.org/resources/courses">BPC related?</a></p></li>
+<li><p><a href="https://rstudio-conf-2022.github.io/get-started-quarto/">intro Quarto workshop</a></p></li>
+<li><p><a href="https://www.r-bloggers.com/2013/11/spss-to-r-an-r-package-to-convert-spss-syntax/">SPSS to R syntax</a></p></li>
+<li><p><a href="https://github.com/jnolis/ggirl">postcards irl</a></p></li>
+<li><p><a href="https://meghan.rbind.io/talk/rstudioconf/">solo contributor slides</a></p></li>
+<li><p><a href="https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/#edit-more-content-about-this-topic">Quarto blog tips</a></p></li>
+<li><p><a href="https://github.com/Nowosad/colorblindcheck">accessible plot colors</a></p></li>
+<li><p><a href="https://github.com/rstudio-conf-2022">ALL OF THE MATERIALS</a></p>
+<ul>
+<li><p><a href="https://github.com/rmd-to-quarto">particular to my workshop</a></p></li>
+<li><p><a href="https://rstudioconf2022.sched.com/?iframe=no">and the schedule (to find more materials)</a></p></li>
+</ul></li>
+<li><p><a href="https://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087">good email tips for the young ’uns</a></p></li>
+<li><p><a href="https://shiny.rstudio.com/articles/google-analytics.html">google analytics in a shiny app</a></p></li>
+<li><p><a href="https://stackoverflow.com/questions/54347764/how-to-read-cell-formatting-indentation-information-from-excel-into-r">parsing really formatted excel spreadsheets</a></p></li>
+<li><p><a href="https://stackoverflow.com/questions/40658189/create-sequence-of-numbers-with-leading-zeroes">numbers with leading zeroes</a></p></li>
 </ul></li>
 </ul>
 

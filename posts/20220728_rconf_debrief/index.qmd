@@ -29,15 +29,51 @@ I am still processing a number of thoughts. For now, here is a list of packages 
 
 -   dm (cynkra) for database relational mapping / joining
 
--   \[funspotr\](https://github.com/brshallo/funspotr-rstudioconf2022) to spot functions that someone uses e.g. a hadley blog
+-   [funspotr](https://github.com/brshallo/funspotr-rstudioconf2022) to spot functions that someone uses e.g. a hadley blog
+
+-   [reportfactor](https://epirhandbook.com/en/reports-with-r-markdown.html#options-3-reportfactory-package)y
+
+-   [data validation cookbook](https://cran.r-project.org/web/packages/validate/vignettes/cookbook.html#1_Introduction_to_validate)
+
+    -   [also](http://data-cleaning.github.io/validate/)
 
 Products to consider making:
 
--   make a CERP manual in quarto and host it somewhere. e.g. twiki
+-   general CERP
 
--   DBS dashboard for monitoring incoming data: pull institution / id into google drive --\> R script to make dashboard
+    -   make a CERP manual in quarto and host it somewhere. e.g. twiki
 
--   CERP REU dashboard for monitoring incoming data outside of the time I'm generating contact lists
+    -   make package including different years of carnegie data so we can call them easily
+
+    -   be clearer about whose packages i depend on and credit them more obviously
+
+        -   have a main list of packages and what they do / why to use them (add to manual)
+
+    -   talk with everyone about general pain points of things they are doign over and over
+
+    -   data cleaning - improve script to use svdialogs!!
+
+    -   WE NEED A DATABASE
+
+        -   yes
+
+    -   investigate how to use cronR and/or posit connect
+
+-   DBS
+
+    -   dashboard for monitoring incoming data: pull institution / id into google drive --\> R script to make dashboard
+
+    -   cron job or something more automatic for on demand
+
+-   CERP REU
+
+    -   dashboard for monitoring incoming data outside of the time I'm generating contact lists
+
+-   BPCnet
+
+    -   dashboard for plan pipeline status
+
+-   [looped rmarkdowns](https://epirhandbook.com/en/iteration-loops-and-lists.html)
 
 Other thoughts / ideas:
 
@@ -70,3 +106,51 @@ Other thoughts / ideas:
         -   02-analysis.R
 
         -   03-dashboard.R
+
+-   specific links to follow up on
+
+    -   [Rstudio connect: is this a product we'd want?](https://www.rstudio.com/products/connect/)
+
+    -   [flexdashboard omg yes](https://github.com/rstudio/flexdashboard/blob/main/inst/examples/crandash/crandash.Rmd)
+
+    -   [all the cron jobs](https://github.com/bnosac/cronR)
+
+        -   [but also this](https://www.youtube.com/watch?v=w2Ka5u5jlJU)
+
+        -   [and even this](https://stackoverflow.com/questions/39419391/running-r-script-daily-using-crontab-in-osx)
+
+        -   [or even this](https://cran.r-project.org/web/packages/taskscheduleR/vignettes/taskscheduleR.html)
+
+    -   [quilt design in R!?!](https://github.com/awalsh17/quiltR)
+
+    -   [practice pull requests](https://github.com/forwards/first-contributions)
+
+    -   [learn what functions people use (esp as a diff)](https://github.com/brshallo/funspotr-rstudioconf2022)
+
+    -   [BPC related?](https://www.datatrail.org/resources/courses)
+
+    -   [intro Quarto workshop](https://rstudio-conf-2022.github.io/get-started-quarto/)
+
+    -   [SPSS to R syntax](https://www.r-bloggers.com/2013/11/spss-to-r-an-r-package-to-convert-spss-syntax/)
+
+    -   [postcards irl](https://github.com/jnolis/ggirl)
+
+    -   [solo contributor slides](https://meghan.rbind.io/talk/rstudioconf/)
+
+    -   [Quarto blog tips](https://beamilz.com/posts/2022-06-05-creating-a-blog-with-quarto/en/#edit-more-content-about-this-topic)
+
+    -   [accessible plot colors](https://github.com/Nowosad/colorblindcheck)
+
+    -   [ALL OF THE MATERIALS](https://github.com/rstudio-conf-2022)
+
+        -   [particular to my workshop](https://github.com/rmd-to-quarto)
+
+        -   [and the schedule (to find more materials)](https://rstudioconf2022.sched.com/?iframe=no)
+
+    -   [good email tips for the young 'uns](https://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087)
+
+    -   [google analytics in a shiny app](https://shiny.rstudio.com/articles/google-analytics.html)
+
+    -   [parsing really formatted excel spreadsheets](https://stackoverflow.com/questions/54347764/how-to-read-cell-formatting-indentation-information-from-excel-into-r)
+
+    -   [numbers with leading zeroes](https://stackoverflow.com/questions/40658189/create-sequence-of-numbers-with-leading-zeroes)
