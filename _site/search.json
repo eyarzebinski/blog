@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "blog",
     "section": "",
-    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nJul 27, 2022\n\n\nevelyn\n\n\n\n\n\n\nNo matching items"
+    "text": "news\n\n\nr\n\n\n\n\n\n\n\n\n\n\n\nJul 28, 2022\n\n\nevelyn\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 27, 2022\n\n\nevelyn\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -19,5 +19,19 @@
     "title": "init",
     "section": "",
     "text": "My organization, Computing Research Association, generously funded my attendance of a 2 day workshop at rconf, where I learned about Quarto, the next generation of RMarkdown. I learned a lot, including how easily Quarto supports blogging! So, welcome to my Quarto blog. I plan to use this blog mostly as notes to myself as I think through R packages and workflows. Feel free to follow along with me!"
+  },
+  {
+    "objectID": "posts/20220728_rconf_debrief/index.html",
+    "href": "posts/20220728_rconf_debrief/index.html",
+    "title": "rconf::debrief",
+    "section": "",
+    "text": "I am still processing a number of thoughts. For now, here is a list of packages I learned about that may directly apply to my work:\n\necommerce\n\nbrochures - supports post requests\ncallr - used in the ecommerce site\n\npollinatr\n\nreadxl\nhaven / foreign (foreign can also write out sas… can it do spss?)\nrenv\nsvdialogs (use popups to get path options)\n\ndm (cynkra) for database relational mapping / joining\n[funspotr](https://github.com/brshallo/funspotr-rstudioconf2022) to spot functions that someone uses e.g. a hadley blog\n\nProducts to consider making:\n\nmake a CERP manual in quarto and host it somewhere. e.g. twiki\nDBS dashboard for monitoring incoming data: pull institution / id into google drive –> R script to make dashboard\nCERP REU dashboard for monitoring incoming data outside of the time I’m generating contact lists\n\nOther thoughts / ideas:\n\n“the power of yet” e.g. “I haven’t learned that.” —> “I haven’t learned that yet.”\nopenscapes for general team learning\nbeing a pollinator\n\ndo no harm\nmake things that just work\npromote growth\n\nsolo contributor\n\ndo as much in R as possible\nfocus on what is realistic, not ideal\nsample workflow\n\n00-setup.R\n\nall report decisions e.g. name, location, filters, run date, effective date\n\n01-prep.R\n02-analysis.R\n03-dashboard.R"
+  },
+  {
+    "objectID": "template-post.html",
+    "href": "template-post.html",
+    "title": "[title]",
+    "section": "",
+    "text": "[post text goes here]"
   }
 ]

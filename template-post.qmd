@@ -1,0 +1,10 @@
+---
+title: "[title]"
+author: "evelyn"
+date: "[yyyy-mm-dd]"
+categories: [news, r, data]
+# image: "image.jpg"
+# draft: true
+---
+
+\[post text goes here\]
