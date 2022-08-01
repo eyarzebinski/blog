@@ -1,0 +1,15 @@
+---
+title: "Tip for pulling session info"
+author: "evelyn"
+date: "2022-08-01"
+categories: [r, tips]
+#| image: "image.jpg"
+#| draft: true
+---
+
+Use the below code chunk to pull a quick, readable table that displays information about the packages in your R environment. Kudos to @MikeKSmith in the rstudio::conf(2022) discord #-tips-and-tricks channel for sharing this!
+
+```{.r}
+sessioninfo::session_info()[["packages"]] %>%
+    gt()
+```

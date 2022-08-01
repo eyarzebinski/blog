@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "blog",
     "section": "",
-    "text": "news\n\n\nr\n\n\n\n\n\n\n\n\n\n\n\nJul 28, 2022\n\n\nevelyn\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 27, 2022\n\n\nevelyn\n\n\n\n\n\n\nNo matching items"
+    "text": "r\n\n\ntips\n\n\n\n\n\n\n\n\n\n\n\nAug 1, 2022\n\n\nevelyn\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnews\n\n\nr\n\n\n\n\n\n\n\n\n\n\n\nJul 28, 2022\n\n\nevelyn\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 27, 2022\n\n\nevelyn\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -33,5 +33,12 @@
     "title": "[title]",
     "section": "",
     "text": "[post text goes here]"
+  },
+  {
+    "objectID": "posts/20220801_sessionInfo/index.html",
+    "href": "posts/20220801_sessionInfo/index.html",
+    "title": "Tip for pulling session info",
+    "section": "",
+    "text": "sessioninfo::session_info()[[\"packages\"]] %>%\n    gt()"
   }
 ]
